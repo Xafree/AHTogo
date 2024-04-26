@@ -1,0 +1,43 @@
+.menu{
+    margin-top: 2px;
+    display:flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.div-link{
+    text-align: center;
+    margin-right: 2em;
+    background-color: #ED7F10;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-top: 3px;
+}
+
+.div-link:hover{
+    background-color: #BD5903;
+}
+
+.title{
+    margin-top: 0.5em;
+    margin-left: 6em;
+}
+.logo{
+    margin-left: 1em;
+    margin-top: 2px;
+    width: 6%;
+}
+.icons{
+    height: 2em;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 3.2vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+
+}
+
+.navlink{
+    background-color: rgba(0, 0, 0, 0);
+}
