@@ -9,27 +9,31 @@ import us from '../media/icons/open-book.svg';
 
 function Navbar() {
     return (
-        <div className="menu">
-            <img src={logo} alt="logo AHTogo" className="logo"/>
-            <h1 className="title">AH Togo</h1>
-            <div className="navbar">
-                <div className="div-link">
-                    <NavLink to="/" className="navlink">
-                        <img src={home} alt="Acceuil" className="icons"/>
-                    </NavLink>
-                </div>
-                <div className="div-link">
-                    <NavLink to="/articles" className="navlink">
-                        <img src={shop} alt="Articles" className="icons"/>
-                    </NavLink>
-                </div>
-                <div className="div-link">
-                    <NavLink to="/about-us" className="navlink">
-                        <img src={us} alt="A propos de nous" className="icons"/>
-                    </NavLink>
+        <div className="position">
+            <div className="menu">
+                <img src={logo} alt="logo AHTogo" className="logo"/>
+                <h1 className="title">AH Togo</h1>
+                <div className="navbar">
+                    <div className="div-link">
+                        <NavLink to="/" className="navlink">
+                            <img src={home} alt="Acceuil" className="icons"/>
+                        </NavLink>
+                    </div>
+                    <div className="div-link">
+                        <NavLink to="/articles" className="navlink">
+                            <img src={shop} alt="Articles" className="icons"/>
+                        </NavLink>
+                    </div>
+                    <div className="div-link">
+                        <NavLink to="/reseaux" className="navlink">
+                            <img src={us} alt="contact" className="icons"/>
+                        </NavLink>
+                    </div>
                 </div>
             </div>
         </div>
+
     );
 }
+
 export default Navbar;

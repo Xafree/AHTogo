@@ -1,0 +1,14 @@
+.global-page{
+    margin-top: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-list-of-articles{
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 13em);
+    gap: 10px;
+}

@@ -3,7 +3,7 @@
 *{
   margin : 0px;
   padding: 0px;
-  background-color: #EFEFDF;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-variation-settings: 'wght' 400;
+  background-color: #EFEFDF;
 }
