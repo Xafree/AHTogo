@@ -41,9 +41,9 @@
     display: block;
     background-color: #BD5903;
     width: 80%;
-    height: 280px;
+    height: 78%;
     border-radius: 15px;
-    left: 16%;
+    left: 17%;
     z-index: 2;
 }
 
@@ -57,7 +57,7 @@
     display: block;
     background-color: #ED7F10;
     width: 80%;
-    height: 280px;
+    height: 82%;
     border-radius: 15px;
     left: 23%;
     top:15%;
