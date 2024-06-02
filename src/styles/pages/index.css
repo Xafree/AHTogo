@@ -5,5 +5,8 @@
   padding: 0px;
   font-family: 'Inter', sans-serif;
   font-variation-settings: 'wght' 400;
+}
+
+body{
   background-color: #EFEFDF;
 }

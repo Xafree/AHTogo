@@ -1,13 +1,26 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/pages/homepage.css';
+import '../styles/components/card.css'
 import Navbar from "../components/Navbar";
 import Card from "../components/card";
-import bob from '../media/imgs/bob.jpeg';
 import {data} from "../services/dataArticles";
 import '../styles/pages/articlespage.css';
+import ModalInformation from "../components/modaleInformation";
 
 function ArticlesPages() {
-    let articles = data; // normalement c'est un appel API mais pas de base de donnée ici
+
+    const [open, setOpen] = React.useState(false);
+    const handleClose = () => setOpen(false);
+    const handleOpen = () => setOpen(true);
+
+    let articles = data;
+
+    useEffect(() => {
+        setTimeout(()=>{
+            handleOpen();
+        }, 700);
+
+    },[]);
 
     return (
         <div>
@@ -16,10 +29,11 @@ function ArticlesPages() {
                 <div className="main-list-of-articles">
                     {
                         articles.map((article, index) => (
-                            <Card key={index} title={article.title} content={article.content} srcImage={bob}/>
+                            <Card key={index} title={article.title} content={article.content} srcImage={article.url} />
                         ))
                     }
                 </div>
+                    <ModalInformation open={open} handleClose={handleClose}/>
             </div>
         </div>
     );

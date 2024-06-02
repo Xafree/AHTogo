@@ -12,3 +12,14 @@
     grid-template-columns: repeat(4, 13em);
     gap: 10px;
 }
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+}
+
+.animation-of-modal{
+    animation: appear 350ms ease-in 1;
+}

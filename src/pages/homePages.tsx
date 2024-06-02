@@ -8,9 +8,8 @@ import {useNavigate} from "react-router-dom";
 function HomePages() {
     let navigate = useNavigate();
     let link:string = (process.env.REACT_APP_LINK_ARTICLES as string);
-    console.log(link);
 
-    function handlebutton() {
+    const handlebutton = ()=> {
         navigate(link);
     }
 

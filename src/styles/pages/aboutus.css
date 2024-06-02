@@ -24,6 +24,14 @@
     background-color: #E6E6D6;
 }
 
+.div-bloc-vente-p{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 70%;
+}
+
 .div-bloc-vente-img{
     width: 70%;
     margin-left: auto;
