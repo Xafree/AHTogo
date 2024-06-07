@@ -19,7 +19,6 @@ function ArticlesPages() {
         setTimeout(()=>{
             handleOpen();
         }, 700);
-
     },[]);
 
     return (

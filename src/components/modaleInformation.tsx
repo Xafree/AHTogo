@@ -17,7 +17,7 @@ function ModalInformation({handleClose,open}:IModalInformation) {
         >
             <div className="div-modal">
                 <div className="header-of-modale">
-                    <img src={logo} alt="logo AHTogo" className="logo"/>
+                    <img src={logo} alt="logo AHTogo" className="logo-modal"/>
                     <h1>{title_modal}</h1>
                 </div>
                 <div className="body-of-modale">

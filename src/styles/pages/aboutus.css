@@ -43,3 +43,19 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1000px){
+    .main-about-us{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-bloc-vente{
+        width: 80%;
+        height: 80%;
+    }
+
+    .div-bloc-vente-p{
+        margin-bottom: 1em;
+    }
+}

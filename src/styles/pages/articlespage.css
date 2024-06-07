@@ -23,3 +23,17 @@
 .animation-of-modal{
     animation: appear 350ms ease-in 1;
 }
+
+@media screen and (max-width: 550px) {
+
+    .main-list-of-articles{
+        grid-template-columns: repeat(2, 11em);
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 550px) {
+
+    .main-list-of-articles{
+        grid-template-columns: repeat(3, 11em);
+    }
+}

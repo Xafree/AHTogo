@@ -16,5 +16,5 @@ export const bloc_help_text:string = "Lorem ipsum dolor sit amet, consectetur ad
 
 //Modal
 export const title_modal:string = "Information";
-export const body_text_modal:string = "Sur cette page il est impossible de commander des articles. C'est une page vitrine pour commander des articles merci de contacter l'association par téléphone au 06 69 98 80 95";
+export const body_text_modal:string = "Sur cette page il est impossible de commander des articles. C'est une page vitrine, pour commander des articles merci de contacter l'association par téléphone au 06 69 98 80 95";
 export const modal_button:string = "Compris";

@@ -5,7 +5,7 @@ import imgAcceuil from "../media/imgs/stand-ahtogo.svg";
 import {body_text, button_text, title_home_page} from "../services/text.services";
 import {useNavigate} from "react-router-dom";
 
-function HomePages() {
+const HomePages=()=> {
     let navigate = useNavigate();
     let link:string = (process.env.REACT_APP_LINK_ARTICLES as string);
 

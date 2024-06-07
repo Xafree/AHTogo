@@ -53,3 +53,15 @@
 .content:hover>*{
     transform: translateY(0px);
 }
+
+@media screen and (max-width: 1000px) {
+
+    .img-card{
+        width: 80%;
+        margin-right: 25%;
+    }
+    .content{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
